@@ -1,0 +1,44 @@
+<?php
+session_start();
+session_destroy();
+
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kayıt Ol</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Kayıt</h1>
+			<form action="authenticate.php" method="post">
+			
+				<label for="TSname">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="TSname" placeholder="Adınız" id="TSname" required>
+				<label for="TSname">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="TSsurname" placeholder="Soyadınız" id="TSsurname" required>
+				<label for="email">
+					<i class="fas fa-mail-bulk"></i>
+				</label>
+				<input type="text" name="email" placeholder="E-Posta Adresiniz" id="email" required>
+
+				
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+					
+				<input type="password" name="password" placeholder="Şifreniz" id="password" required>
+				<input type="hidden" name="submit" value="1">
+				<input type="submit" value="Kayıt Ol">
+			</form>
+			<h2><a href="index.html">Giriş Yap</a></h2>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+sisteme giriş yapabilmek için gerekli kullanıcılar önceden kayıt edildi.
+Ders ekleme yapabilmesi için admin kullanıcısı sisteme giriş yapması gerekir.
+
+Kullanıcı Adı:admin@cbu.edu.tr Şifre:123
+
+Admin kullanıcısı ders ekledikten sonra o dersin sınav şeklini ayarlanabilmesi için aşağıdaki kullanıcılar ile
+giriş yapılır.
+
+Kullanıcı Adı: ahmet.tosun@cbu.edu.tr Şifre:123
+
+Kullanıcı Adı: ali.karakaya@cbu.edu.tr Şifre:123
+
+Kullanıcı Adı: ali.mahir@cbu.edu.tr Şifre:123
+
+Kullanıcı Adı: aslan.bozkurt@cbu.edu.tr Şifre:123
